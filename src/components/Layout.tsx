@@ -33,9 +33,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <Link
                 to="/"
                 className="text-2xl font-bold text-green-600 hover:text-green-700 transition-colors focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 rounded"
-                aria-label="고릴라티켓 홈페이지로 이동"
+                aria-label="구름페이 홈페이지로 이동"
               >
-                고릴라티켓
+                구름페이
               </Link>
             </div>
             <div className="hidden md:flex items-center space-x-8">
@@ -298,9 +298,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-1">
-              <div className="text-2xl font-bold text-white mb-4">고릴라티켓</div>
+              <div className="text-2xl font-bold text-white mb-4">구름페이</div>
               <p className="text-gray-400 mb-4 text-sm md:text-base leading-relaxed">
-                가장 빠르고 안전한 현금화 서비스. 고릴라티켓는 고객님의 긴급한
+                가장 빠르고 안전한 현금화 서비스. 구름페이는 고객님의 긴급한
                 자금 문제를 신속하고 간편하게 해결해 드립니다.
               </p>
             </div>
@@ -412,22 +412,22 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
           <div className="border-t border-gray-800 mt-8 md:mt-12 pt-6 md:pt-8 text-left text-gray-500 text-xs">
             <h4 className="font-bold text-gray-400 mb-2">업체 정보</h4>
-            <p>상호명: 고릴라티켓 | 대표: 김민수</p>
+            <p>상호명: 구름페이 | 대표: 김민수</p>
             <p>사업자등록번호: 101-81-59985</p>
             <p>주소: 서울시 강남구 테헤란로 27-5</p>
             <p>고객센터: 010-2138-0790 | 이메일: benzamn779@gmail.com</p>
           </div>
           <div className="border-t border-gray-800 mt-6 pt-6 text-center text-gray-400">
             <p className="text-sm md:text-base">
-              © 2025 고릴라티켓 (GorillaTicket). 모든 권리 보유.
+              © 2025 구름페이. 모든 권리 보유.
             </p>
             <p className="mt-2 text-xs md:text-sm leading-relaxed max-w-4xl mx-auto">
-              본 웹사이트는 고릴라티켓에서 제공하는 소액결제, 정보이용료,
+              본 웹사이트는 구름페이에서 제공하는 소액결제, 정보이용료,
               신용카드, 상품권 현금화 서비스에 대한 정보를 포함하고 있습니다.
               서비스 이용 전 반드시 이용약관 및 개인정보처리방침을 확인하시기
               바랍니다. 과도한 현금화 서비스 이용은 개인의 재정 상황에 부담을 줄
               수 있으니 신중한 판단 후 이용해 주시기 바라며, 불법적인 목적으로
-              서비스를 이용하는 것을 엄격히 금지합니다. 고릴라티켓는 정식 등록된
+              서비스를 이용하는 것을 엄격히 금지합니다. 구름페이는 정식 등록된
               안전한 업체이며, 고객님의 안전을 최우선으로 생각합니다.
             </p>
           </div>

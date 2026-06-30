@@ -15,16 +15,16 @@ interface SEOProps {
 }
 
 const SEO: React.FC<SEOProps> = ({ title, description, keywords, faqItems, pageType = 'general' }) => {
-  const defaultKeywords = "소액결제현금화,소액결제 현금화,소액결제 현금화 방법,소액결제현금화 디시,소액결제 현금화 후기,소액결제 현금화 수수료,소액결제 현금화 업체,소액결제 현금화 추천,소액결제 현금화 사이트,소액결제 방법,소액결제 한도,소액결제 한도 확인,휴대폰 소액결제 현금화,핸드폰 소액결제 현금화,SKT 소액결제 현금화,KT 소액결제 현금화,LGU 소액결제 현금화,미납 소액결제 현금화,소액결제 즉시입금,소액결제 현금화 안전,고릴라티켓,정보이용료현금화,신용카드현금화,상품권현금화";
+  const defaultKeywords = "소액결제현금화,소액결제 현금화,소액결제 현금화 방법,소액결제현금화 디시,소액결제 현금화 후기,소액결제 현금화 수수료,소액결제 현금화 업체,소액결제 현금화 추천,소액결제 현금화 사이트,소액결제 방법,소액결제 한도,소액결제 한도 확인,휴대폰 소액결제 현금화,핸드폰 소액결제 현금화,SKT 소액결제 현금화,KT 소액결제 현금화,LGU 소액결제 현금화,미납 소액결제 현금화,소액결제 즉시입금,소액결제 현금화 안전,구름페이,정보이용료현금화,신용카드현금화,상품권현금화";
   const finalKeywords = keywords ? `${keywords}, ${defaultKeywords}` : defaultKeywords;
   const siteUrl = "https://xn--299a64rxvbk71bjne.com";
   const canonicalUrl = `${siteUrl}${window.location.pathname}`;
-  const fullTitle = `${title} | 고릴라티켓`;
+  const fullTitle = `${title} | 구름페이`;
 
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "고릴라티켓",
+    "name": "구름페이",
     "url": siteUrl,
     "logo": `${siteUrl}/gorilla-mascot.png`,
     "image": `${siteUrl}/gorilla-mascot.png`,
@@ -72,7 +72,7 @@ const SEO: React.FC<SEOProps> = ({ title, description, keywords, faqItems, pageT
       <meta property="og:locale" content="ko_KR" />
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
-      <meta property="og:site_name" content="고릴라티켓" />
+      <meta property="og:site_name" content="구름페이" />
       <meta property="og:image" content={`${siteUrl}/gorilla-mascot.png`} />
       <meta property="og:url" content={canonicalUrl} />
 
