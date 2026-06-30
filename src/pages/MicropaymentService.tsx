@@ -9,7 +9,7 @@ const MicropaymentService: React.FC = () => {
       {/* 구글 검색 시 제목과 설명이 이렇게 나타납니다. */}
       <SEO 
         title="소액결제 현금화 80% 수수료 싼곳"
-        description="휴대폰 소액결제 현금화, 미납 정책 99.9% 승인! 업계 최저 수수료와 3분 입금을 보장하는 공룡페이 공식 안내 페이지입니다. SKT, KT, LGU+ 모두 가능합니다."
+        description="휴대폰 소액결제 현금화, 미납 정책 99.9% 승인! 업계 최저 수수료와 3분 입금을 보장하는 고릴라티켓 공식 안내 페이지입니다. SKT, KT, LGU+ 모두 가능합니다."
         keywords="소액결제현금화, 휴대폰소액결제, 소액결제 현금화 수수료, 미납 소액결제"
       />
 
@@ -19,7 +19,7 @@ const MicropaymentService: React.FC = () => {
           <div className="container mx-auto px-4 text-center">
             {/* H1 태그는 페이지의 핵심 주제를 담아야 검색엔진이 좋아합니다. */}
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-              소액결제 현금화: 휴대폰만으로 초스피드 입금 | 공룡페이
+              소액결제 현금화: 휴대폰만으로 초스피드 입금 | 고릴라티켓
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
               휴대폰만 OK! 누구나 3분 안에 비상금 해결. SKT, KT, LGU+ 모든 통신사
@@ -57,7 +57,7 @@ const MicropaymentService: React.FC = () => {
                       to="/"
                       className="text-green-600 hover:text-green-700 font-semibold"
                     >
-                      공룡페이
+                      고릴라티켓
                     </Link>
                     의 소액결제 현금화 서비스입니다. 복잡한 서류나 심사 없이
                     빠르고 간편하게 이용하실 수 있습니다.
@@ -142,7 +142,7 @@ const MicropaymentService: React.FC = () => {
           {/* Service Features */}
           <section className="mb-16">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-              🚀 공룡페이 소액결제 현금화 핵심 장점
+              🚀 고릴라티켓 소액결제 현금화 핵심 장점
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-xl transition-shadow">
@@ -298,7 +298,7 @@ const MicropaymentService: React.FC = () => {
                 🦕 지금 바로, 소액결제 현금화 상담받아보세요!
               </h2>
               <p className="text-lg md:text-xl mb-8 opacity-90">
-                급한 비상금이 필요한 상황? 복잡한 절차는 NO! 공룡페이에서 소액결제
+                급한 비상금이 필요한 상황? 복잡한 절차는 NO! 고릴라티켓에서 소액결제
                 현금화로 신속하게 해결하세요.24시간 언제든 상담 가능하며, 안전한
                 거래를 약속드립니다.
               </p>

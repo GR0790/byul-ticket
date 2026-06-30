@@ -6,11 +6,11 @@
   RewriteCond %{HTTPS} off
   RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-  # 2. www 제거 (www.공룡페이.com -> 공룡페이.com)
+  # 2. www 제거 (www.고릴라티켓.com -> 고릴라티켓.com)
   # 누군가 www를 붙여서 들어오면, www가 없는 주소로 강제 이동시킵니다.
-  # xn--ob0b39t2wlgzl.com = 공룡페이.com (퓨니코드)
-  RewriteCond %{HTTP_HOST} ^www\.xn--ob0b39t2wlgzl\.com [NC]
-  RewriteRule ^(.*)$ https://xn--ob0b39t2wlgzl.com/$1 [L,R=301]
+  # xn--299a64rxvbk71bjne.com = 고릴라티켓.com (퓨니코드)
+  RewriteCond %{HTTP_HOST} ^www\.xn--299a64rxvbk71bjne\.com [NC]
+  RewriteRule ^(.*)$ https://xn--299a64rxvbk71bjne.com/$1 [L,R=301]
 
   # 3. React Router (SPA) 새로고침 404 방지 (필수!)
   # 파일이나 폴더가 실제로 존재하지 않으면 index.html을 보여줌

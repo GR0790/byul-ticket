@@ -28,7 +28,7 @@ async function generateSitemap() {
   console.log(`Found ${blogPostIds.length} blog posts.`);
 
   // 2. 마크다운 링크 형식이 아닌, 실제 URL 주소를 사용합니다.
-  const baseUrl = 'https://xn--ob0b39t2wlgzl.com';
+  const baseUrl = 'https://xn--299a64rxvbk71bjne.com';
   const today = new Date().toISOString().split('T')[0];
 
   // 블로그 외의 고정 페이지 목록

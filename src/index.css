@@ -61,7 +61,7 @@ body {
   --chart-5: 340 75% 55%;
 }
 
-/* 공룡 마스코트 애니메이션 */
+/* 고릴라 마스코트 애니메이션 */
 @keyframes bounce-subtle {
   0%, 100% {
     transform: translateY(0px) rotate(-2deg);
